@@ -46,7 +46,7 @@ router.post(
       next();
     }
   },
-  require("../controllers/userControllers/resgister")
+  require("../controllers/userControllers/register")
 );
 
 router.post(
